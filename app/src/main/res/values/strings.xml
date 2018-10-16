@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CafeNeo</string>
+    <string name="heading1">ONE COFFEE \n TO RULE THE DAY</string>
+    <string name="address1">Address: </string>
+    <string name="address2">Fourteen36 Mall, 1436 Sanusi Fafunwa St, Victoria Island, Lagos"</string>
+    <string name="Contact">Phone No: \n0908 509 4726</string>
+    <string name="hours">Business Hours: 9am-8pm</string>
+    <string name="website">Website: www.mycafeneo.com</string>
+</resources>
+

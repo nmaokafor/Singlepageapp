@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/cafe1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@color/colorHeader"
+            android:fontFamily="Open Sans"
+            android:padding="8dp"
+            android:text="@string/heading1"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Bgcolor"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="Open Sans"
+            android:text="@string/address1"
+            android:textColor="@color/coloText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="Open Sans"
+            android:textColor="@color/coloText"
+            android:text="@string/address2"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="Open Sans"
+            android:text="@string/Contact"
+            android:textSize="20sp"
+            android:textColor="@color/coloText"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Open Sans"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hours"
+            android:textSize="20sp"
+            android:textColor="@color/coloText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Open Sans"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/website"
+            android:textSize="20sp"
+            android:textColor="@color/coloText"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
